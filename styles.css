@@ -1,3 +1,53 @@
+/* Reset default styles */
 * {
-    color: purple;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f1f1f1;
+}
+
+h1, h2 {
+    background-color:rgb(197, 197, 184);
+    padding: 10px;
+    color: #fff;
+}
+
+/* Change default link format (remove undertline) */
+a {
+    text-decoration: none; /* Removes underline */
+  }  
+
+button {
+    width: 150px;
+    height: 65px;
+    font-size: 25px;
+    background-color: rgb(188, 199, 212);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.1s, transform 0.1s;
+}
+
+button:hover {
+    background-color: #45a049;
+    transform: scale(1.01);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  }
+
+.button-header {
+    padding-top:10px;
+    height: 70px;
+}
+
+img {
+    padding-top:10px;
 }
